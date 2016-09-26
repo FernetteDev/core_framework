@@ -2,13 +2,12 @@
 <html lang="fr">
 
 <head>
-    <!--<title>--><?php //echo $pStrTitre ?><!--</title>-->
-    <title><?php echo $this->strTitre ?></title>
-    <meta charset="utf-8" />
-    <meta name="robot" content="<?php echo $this->strRobot ?>" />
-    <meta name="description" content="<?php echo $this->strDescription ?>" />
-    <meta name="viewport" content="width=device-width" />
-    <?php $this->strCss ?>
+    <?php echo $this->strTitre ?>
+    <?php echo $this->strCharset ?>
+	<?php echo $this->strRobot ?>
+	<?php echo $this->strDescription ?>
+	<?php echo $this->strViewport ?>
+    <?php echo $this->strCss ?>
 </head>
 <body>
 

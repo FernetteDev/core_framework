@@ -1,15 +1,20 @@
 
 <?php
-	include ('core/Autoload/autoload.php');
+	include_once('core/Autoload/autoload.php');
 	Autoload\autoloader::register();
-	$structure = new \Html\Structure();
-	$structure->titre('titre du site');
-	$structure->css('main');
+	$head = new Structure\head();
+	$head->titre('bien joué');
+	$head->css(array('main'));
+	$head->charset('UTF-8');
 
-	var_dump($structure);
+
+
+
 
 ?>
+<body>
 
 Voici le body <br>
+</body>
 
 

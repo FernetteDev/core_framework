@@ -3,6 +3,7 @@
 	namespace Structure;
 
 	class head {
+
 		/**
 		 * @var string Choix de la langue.
 		 */
@@ -28,13 +29,18 @@
 		 */
 		private $strViewport;
 		/**
-		 * @var string variable contenant le css.
+		 * @var string variable contenant les fichiers css.
 		 */
 		private $strCss;
 		/**
-		 * @var string variable contenant des scripts facultatif
+		 * @var string variable contenant l'intégration des fichiers scripts facultatif
 		 */
 		private $strScript;
+		/**
+		 * @var string variable contenant le JavaScript/Jquery
+		 * écrit habituellement dans la page html.
+		 */
+		private $strJavaScript;
 
 
 		/**
@@ -45,59 +51,57 @@
 				'<!doctype:html>
 				<html lang=' . $this->langue_html . '>
 				<head>' .
-					$this->strTitre .
-					$this->strRobot .
-					$this->strCharset .
-					$this->strViewport .
-					$this->strDescription .
-					$this->strCss .
-				'</head>';
+				$this->robot() .
+				$this->charset() .
+				$this->viewport() .
+				$this->description() .
+				'</head>
+				<body>';
+		}
+		/**
+		 * Passage du footer pour positionnement en bas du document par défaut
+		 */
+		public function __destruct() {
+			return
+			$this->strScript .
+			'</body>
+				</html>';
 		}
 
 		/**
 		 * @param string $pStrTitre Le title du document.
-		 * @return string
 		 */
 		public function titre($pStrTitre = "nouvelle page") {
 			echo $this->strTitre = '<title>' . $pStrTitre . '</title>';
 		}
-		
 		/**
 		 * @param string $pStrIndex  par défaut est désigné comme indexé par les robots google.
 		 * @param string $pStrFollow par défaut est désigné comme follow par les robots google.
-		 * @return string
 		 */
 		public function robot($pStrIndex = 'index', $pStrFollow = 'follow') {
 			echo $this->strRobot = '<meta name="robot" content=' . $pStrIndex . ',' . $pStrFollow . '/>';
 		}
-
 		/**
 		 * @param string $pStrViewport désigne le viewport du document
-		 * @return null|string
 		 */
-		public function viewport($pStrViewport = 'width=device-width'){
+		public function viewport($pStrViewport = null){
 			echo isset($pStrViewport) ? $this->strViewport = '<meta name="viewport" content="' . $pStrViewport . '"/>' : null;
 		}
-		
 		/**
 		 * @param string $pStrCharset permet de choisir le l'encodage du charset.
-		 * @return string
 		 */
 		public function charset($pStrCharset = 'UTF-8'){
 			echo $this->strCharset = '<meta charset="' . $pStrCharset . '"/>';
 		}
-
 		/**
 		 * @param string $pStrDescription contient la description de la meta pour google
-		 * @return string
 		 */
 		public function description($pStrDescription = null) {
 			echo isset($pStrDescription) ? $this->strDescription = '<meta name="description" content="' . $pStrDescription . '"/>' : null;
 		}
 		
 		/**
-		 * @param string $pStrCss nom du fichier Css à intégrer au document (sans le .css).
-		 * @return string
+		 * @param array $pStrCss nom du fichier Css à intégrer au document (sans le .css).
 		 */
 		public function css($pStrCss = array()) {
 			if(isset($pStrCss)){
@@ -106,24 +110,22 @@
 				}
 			}
 		}
-		
 		/**
-		 * @param string $pStrScript Script à intégrer au document.
-		 * @return string
+		 * @param array $pStrScript fonction incluant les scripts.
 		 */
-		public function script($pStrScript) {
-			echo isset($pStrScript) ? $this->strScript = $pStrScript : null;
+		public function script($pStrScript = array()) {
+			if(isset($pStrScript)){
+				for($i = 0; $i < count($pStrScript); $i++){
+					echo $this->strJavaScript[$i] = '<script src="inc/js/' . $pStrScript[$i] . '.js"></script>';
+				}
+			}
 		}
-
 		/**
-		 * Passage du footer pour positionnement en bas du document par défaut
+		 * @param $pStrJavascript string fonction permettant
+		 * d'inscrire le script d'execution de la page
 		 */
-		public function __destruct() {
-			return
-			$this->strScript .
-			'</html>';
+		public function javascript($pStrJavascript) {
+			echo isset($pStrJavascript) ? $this->strScript = '<script>' . $pStrJavascript . '</script>' : null;
 		}
-
-
 
 	}

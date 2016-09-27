@@ -41,8 +41,7 @@
 		 * écrit habituellement dans la page html.
 		 */
 		private $strJavaScript;
-
-
+		
 		/**
 		 * head constructor.
 		 */

@@ -1,13 +1,8 @@
 <?php
-	/**
-	 * Created by PhpStorm.
-	 * User: Fernette Developpeme
-	 * Date: 23/07/2016
-	 * Time: 11:35
-	 */
+	
 	namespace Html;
 
-	class Balise {
+	class balise_content {
 
 		/**
 		 * @var string correspond à la balise qui entourera l'élément ciblé
@@ -34,9 +29,7 @@
 		 */
 		protected $attr_class = ' class';
 
-		
-		public function __construct() {
-		}
+		public function __construct() {}
 
 		/**
 		 * @param $html string code html à entourer

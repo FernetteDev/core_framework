@@ -1,25 +1,17 @@
 <?php
-	/**
-	 * Created by PhpStorm.
-	 * User: Fernette Developpeme
-	 * Date: 12/07/2016
-	 * Time: 18:07
-	 */
-	namespace formulaire;
-	use Html\Balise;
+
+	namespace Html;
 	
 	/**
 	 * Class Form
 	 * permet de générer un formulaire rapidement et simplement
 	 */
-	class Form extends Balise{
+	class form extends balise_content {
 
-		
 		/**
 		 * @var array données utilisé par le formulaire
 		 */
 		protected $data;
-		
 		/**
 		 * Form constructor.
 		 * @param array $data
@@ -27,8 +19,6 @@
 		public function __construct($data = array()) {
 			$this->data = $data;
 		}
-
-		
 		
 		/**
 		 * @param $index string cherche la value pour un input
@@ -46,6 +36,7 @@
 		public function form($action='#', $method='post'){
 			return '<form action="' . $action . '" method="' . $method . '">';
 		}
+
 		/**
 		 * @param $name string défini le name de l'élément
 		 * @param $type string défini le type de l'élément
@@ -57,6 +48,7 @@
 			return $this->surround('<input' . $this->addName($name). $this->addClass($class) . $this->addId($id) . $this->addType($type) .
 			$this->addValue($this->getValue($name)) . '>');
 		}
+
 		/**
 		 * @param $text string texte du boutton
 		 * @param $name string name du submit
@@ -67,14 +59,12 @@
 		public function button($text, $name=null, $id=null, $type='submit'){
 			return $this->surround('<button' . $this->addType($type) . $this->addId($id) . $this->addValue($name) . '>' . $text . '</button>');
 		}
+
 		/**
 		 * @return string
 		 */
 		public function endForm() {
 			return '</form>';
 		}
-
-
-
-
+		
 	}

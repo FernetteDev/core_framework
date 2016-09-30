@@ -66,5 +66,5 @@ $(document).ready(function () {
             }
         });
     }
-    var formulaire = new form_validation('input:text');
+
 }); // fin de ready.

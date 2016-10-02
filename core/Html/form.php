@@ -34,7 +34,7 @@
 		 * @return string
 		 */
 		public function form($action='#', $method='post'){
-			return '<form action="' . $action . '" method="' . $method . '">';
+			echo '<form action="' . $action . '" method="' . $method . '">';
 		}
 
 		/**
@@ -45,7 +45,7 @@
 		 * @return string ici getValue permet une persistance des données après envoie du post
 		 */
 		public function input($name, $id=null, $class=null, $type="text"){
-			return $this->surround('<input' . $this->addName($name). $this->addClass($class) . $this->addId($id) . $this->addType($type) .
+			echo $this->surround('<input' . $this->addName($name). $this->addClass($class) . $this->addId($id) . $this->addType($type) .
 			$this->addValue($this->getValue($name)) . '>');
 		}
 
@@ -57,14 +57,14 @@
 		 * @return string
 		 */
 		public function button($text, $name=null, $id=null, $type='submit'){
-			return $this->surround('<button' . $this->addType($type) . $this->addId($id) . $this->addValue($name) . '>' . $text . '</button>');
+			echo $this->surround('<button' . $this->addType($type) . $this->addId($id) . $this->addValue($name) . '>' . $text . '</button>');
 		}
 
 		/**
 		 * @return string
 		 */
 		public function endForm() {
-			return '</form>';
+			echo '</form>';
 		}
 		
 	}

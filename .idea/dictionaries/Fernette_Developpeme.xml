@@ -1,100 +1,206 @@
 <component name="ProjectDictionaryState">
   <dictionary name="Fernette Developpeme">
     <words>
+      <w>actuelle</w>
+      <w>affichage</w>
+      <w>affiche</w>
+      <w>afficher</w>
       <w>afin</w>
+      <w>apercu</w>
+      <w>appuyé</w>
       <w>associer</w>
+      <w>attribue</w>
       <w>aucun</w>
       <w>autant</w>
       <w>avant</w>
+      <w>avez</w>
+      <w>balle</w>
       <w>bien</w>
+      <w>boucle</w>
+      <w>bougera</w>
+      <w>brique</w>
+      <w>briques</w>
       <w>calcul</w>
       <w>calcule</w>
+      <w>capturé</w>
       <w>caractère</w>
+      <w>carré</w>
+      <w>casse</w>
       <w>ceci</w>
       <w>cela</w>
       <w>cependant</w>
       <w>changement</w>
+      <w>chargement</w>
       <w>chaîne</w>
+      <w>chercher</w>
       <w>choix</w>
+      <w>cible</w>
+      <w>cliquer</w>
       <w>comme</w>
+      <w>compatibilité</w>
       <w>conservé</w>
+      <w>constantes</w>
+      <w>conteneur</w>
+      <w>contexte</w>
       <w>contient</w>
+      <w>continuer</w>
       <w>coords</w>
       <w>copie</w>
+      <w>couleur</w>
+      <w>couleurs</w>
       <w>crea</w>
+      <w>creer</w>
       <w>cropbox</w>
+      <w>cryptage</w>
+      <w>crypter</w>
+      <w>crypté</w>
       <w>création</w>
+      <w>crée</w>
+      <w>créé</w>
+      <w>ctxheight</w>
+      <w>ctxwidth</w>
+      <w>ddac</w>
+      <w>decrypte</w>
+      <w>decrypter</w>
+      <w>depla</w>
       <w>desctructeur</w>
       <w>deux</w>
       <w>directement</w>
       <w>doctype</w>
       <w>donc</w>
+      <w>droite</w>
+      <w>dynamique</w>
+      <w>début</w>
+      <w>décryptage</w>
       <w>désigne</w>
       <w>désigné</w>
+      <w>effectué</w>
       <w>enregistre</w>
+      <w>entrée</w>
+      <w>espace</w>
+      <w>existe</w>
+      <w>exécution</w>
       <w>fichiers</w>
+      <w>flêche</w>
+      <w>gagne</w>
+      <w>gagné</w>
       <w>garde</w>
       <w>gestion</w>
+      <w>getfirefox</w>
+      <w>getimage</w>
       <w>grande</w>
       <w>gérer</w>
       <w>habituellement</w>
       <w>haut</w>
       <w>identiques</w>
       <w>imagecreatefromgif</w>
+      <w>imgstore</w>
       <w>incluant</w>
       <w>inclure</w>
       <w>indexé</w>
       <w>indiquant</w>
+      <w>initialisées</w>
       <w>inscrire</w>
+      <w>instanciation</w>
+      <w>insérer</w>
       <w>interprété</w>
       <w>intérêt</w>
       <w>jcrop</w>
+      <w>joueur</w>
       <w>joué</w>
       <w>juste</w>
+      <w>keycode</w>
+      <w>keydown</w>
       <w>langue</w>
       <w>largeur</w>
+      <w>ligne</w>
+      <w>lignes</w>
+      <w>limite</w>
+      <w>moins</w>
       <w>mémoire</w>
+      <w>méthode</w>
+      <w>navigateur</w>
       <w>nombre</w>
       <w>nécessaire</w>
+      <w>objet</w>
+      <w>onkeydown</w>
+      <w>onkeypress</w>
+      <w>onkeyup</w>
       <w>origine</w>
+      <w>perdu</w>
+      <w>peut</w>
       <w>plein</w>
       <w>positionnement</w>
       <w>pourcentage</w>
+      <w>pourcentages</w>
       <w>proposée</w>
+      <w>propriété</w>
       <w>présente</w>
+      <w>préssée</w>
       <w>puisque</w>
+      <w>puisse</w>
       <w>qualite</w>
+      <w>rafraichissement</w>
+      <w>recup</w>
       <w>redimensionne</w>
       <w>redimensionnement</w>
       <w>redimensionner</w>
+      <w>remplit</w>
       <w>renouveler</w>
+      <w>renseignera</w>
+      <w>reste</w>
+      <w>revoir</w>
       <w>rognage</w>
       <w>rogne</w>
       <w>rogner</w>
       <w>rogné</w>
+      <w>réaffichage</w>
+      <w>réaffiche</w>
       <w>récit</w>
       <w>récupère</w>
       <w>récupération</w>
+      <w>récupéré</w>
       <w>réduite</w>
       <w>référencement</w>
+      <w>région</w>
+      <w>securite</w>
       <w>servira</w>
       <w>sinon</w>
       <w>sont</w>
       <w>souhaité</w>
+      <w>souris</w>
+      <w>spacebar</w>
+      <w>startheight</w>
+      <w>startwidth</w>
+      <w>suis</w>
+      <w>suivante</w>
       <w>suivi</w>
       <w>supprime</w>
       <w>sélection</w>
       <w>taille</w>
+      <w>tata</w>
+      <w>toléré</w>
+      <w>toujours</w>
+      <w>tous</w>
       <w>trop</w>
       <w>truc</w>
+      <w>télécharge</w>
       <w>uniquement</w>
       <w>valeurs</w>
+      <w>valide</w>
       <w>validité</w>
       <w>validé</w>
       <w>verif</w>
       <w>veut</w>
+      <w>virtuel</w>
+      <w>visu</w>
+      <w>vitesse</w>
       <w>voici</w>
+      <w>vérifie</w>
       <w>écrit</w>
+      <w>éléments</w>
+      <w>évènements</w>
+      <w>événement</w>
     </words>
   </dictionary>
 </component>

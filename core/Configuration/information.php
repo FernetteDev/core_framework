@@ -19,4 +19,8 @@ class information {
     const BDD_PASS = "";
     const BDD_HOTE = "localhost";
     const BDD_PORT = 3306;
+    /**
+     * Clef du site.
+     */
+    const CLEF_CRYPTAGE = '';
 }

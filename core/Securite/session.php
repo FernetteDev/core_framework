@@ -1,8 +1,9 @@
 <?php
 
 namespace Securite;
+use Configuration\information;
 
-class Session extends \Configuration\Information {
+class Session {
     
     public function __construct() {
         session_start();
@@ -21,13 +22,14 @@ class Session extends \Configuration\Information {
             }
         }
     }
+    
     /**
      * Méthode de cryptage.
      * @param string $pStrTexte Texte en claire
      * @return string Texte crypté.
      */
     public function crypter($pStrTexte) {
-        return mcrypt_encrypt(MCRYPT_RIJNDAEL_256, parent::CLEF, $pStrTexte, MCRYPT_MODE_ECB);
+        return mcrypt_encrypt(MCRYPT_RIJNDAEL_256, information::CLEF_CRYPTAGE, $pStrTexte, MCRYPT_MODE_ECB);
     }
     /**
      * Méthode de décryptage :
@@ -35,6 +37,6 @@ class Session extends \Configuration\Information {
      * @return string Texte Texte en clair.
      */
     public function decrypter($pStrTexte) {
-        return rtrim(mcrypt_decrypt(MCRYPT_RIJNDAEL_256, parent::CLEF, $pStrTexte, MCRYPT_MODE_ECB), "\0");
+        return rtrim(mcrypt_decrypt(MCRYPT_RIJNDAEL_256, information::CLEF_CRYPTAGE, $pStrTexte, MCRYPT_MODE_ECB), "\0");
     }
 }

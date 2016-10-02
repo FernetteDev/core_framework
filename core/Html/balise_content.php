@@ -74,10 +74,4 @@
 			return isset($value) ? $this->attr_class . '="' . $value . '" ' : null;
 		}
 
-
-
-
-
-
-
 	}

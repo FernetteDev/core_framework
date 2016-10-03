@@ -1,19 +1,24 @@
 <component name="ProjectDictionaryState">
   <dictionary name="Fernette Developpeme">
     <words>
+      <w>abordé</w>
       <w>actuelle</w>
       <w>affichage</w>
       <w>affiche</w>
       <w>afficher</w>
+      <w>affichera</w>
       <w>afin</w>
       <w>apercu</w>
+      <w>approfondissement</w>
       <w>appuyé</w>
       <w>associer</w>
       <w>attribue</w>
+      <w>attributs</w>
       <w>aucun</w>
       <w>autant</w>
       <w>avant</w>
       <w>avez</w>
+      <w>balises</w>
       <w>balle</w>
       <w>bien</w>
       <w>boucle</w>
@@ -38,21 +43,25 @@
       <w>cliquer</w>
       <w>comme</w>
       <w>compatibilité</w>
+      <w>connecte</w>
       <w>conservé</w>
       <w>constantes</w>
       <w>conteneur</w>
       <w>contexte</w>
+      <w>contiendra</w>
       <w>contient</w>
       <w>continuer</w>
       <w>coords</w>
       <w>copie</w>
       <w>couleur</w>
       <w>couleurs</w>
+      <w>cours</w>
       <w>crea</w>
       <w>creer</w>
       <w>cropbox</w>
       <w>cryptage</w>
       <w>crypter</w>
+      <w>cryptera</w>
       <w>crypté</w>
       <w>création</w>
       <w>crée</w>
@@ -63,6 +72,7 @@
       <w>decrypte</w>
       <w>decrypter</w>
       <w>depla</w>
+      <w>dernière</w>
       <w>desctructeur</w>
       <w>deux</w>
       <w>directement</w>
@@ -75,13 +85,20 @@
       <w>désigne</w>
       <w>désigné</w>
       <w>effectué</w>
+      <w>emboîté</w>
       <w>enregistre</w>
       <w>entrée</w>
       <w>espace</w>
       <w>existe</w>
       <w>exécution</w>
+      <w>faire</w>
+      <w>fermeture</w>
+      <w>feront</w>
       <w>fichiers</w>
       <w>flêche</w>
+      <w>fonctionnel</w>
+      <w>fonctionnent</w>
+      <w>fonctionner</w>
       <w>gagne</w>
       <w>gagné</w>
       <w>garde</w>
@@ -93,12 +110,15 @@
       <w>habituellement</w>
       <w>haut</w>
       <w>identiques</w>
+      <w>idéalement</w>
       <w>imagecreatefromgif</w>
       <w>imgstore</w>
       <w>incluant</w>
       <w>inclure</w>
       <w>indexé</w>
       <w>indiquant</w>
+      <w>indiquer</w>
+      <w>indépendant</w>
       <w>initialisées</w>
       <w>inscrire</w>
       <w>instanciation</w>
@@ -107,6 +127,7 @@
       <w>intérêt</w>
       <w>jcrop</w>
       <w>joueur</w>
+      <w>jour</w>
       <w>joué</w>
       <w>juste</w>
       <w>keycode</w>
@@ -116,23 +137,35 @@
       <w>ligne</w>
       <w>lignes</w>
       <w>limite</w>
+      <w>mentionnant</w>
+      <w>mettre</w>
+      <w>modifié</w>
       <w>moins</w>
+      <w>morceau</w>
       <w>mémoire</w>
       <w>méthode</w>
       <w>navigateur</w>
+      <w>naviguer</w>
       <w>nombre</w>
+      <w>notre</w>
+      <w>noté</w>
       <w>nécessaire</w>
       <w>objet</w>
+      <w>objets</w>
       <w>onkeydown</w>
       <w>onkeypress</w>
       <w>onkeyup</w>
       <w>origine</w>
+      <w>partie</w>
+      <w>partout</w>
       <w>perdu</w>
       <w>peut</w>
+      <w>peuvent</w>
       <w>plein</w>
       <w>positionnement</w>
       <w>pourcentage</w>
       <w>pourcentages</w>
+      <w>projet</w>
       <w>proposée</w>
       <w>propriété</w>
       <w>présente</w>
@@ -160,9 +193,12 @@
       <w>récupère</w>
       <w>récupération</w>
       <w>récupéré</w>
+      <w>récurcivité</w>
+      <w>réduire</w>
       <w>réduite</w>
       <w>référencement</w>
       <w>région</w>
+      <w>saisis</w>
       <w>securite</w>
       <w>servira</w>
       <w>sinon</w>
@@ -170,6 +206,7 @@
       <w>souhaité</w>
       <w>souris</w>
       <w>spacebar</w>
+      <w>spécifique</w>
       <w>startheight</w>
       <w>startwidth</w>
       <w>suis</w>
@@ -179,6 +216,7 @@
       <w>sélection</w>
       <w>taille</w>
       <w>tata</w>
+      <w>terme</w>
       <w>toléré</w>
       <w>toujours</w>
       <w>tous</w>
@@ -186,6 +224,7 @@
       <w>truc</w>
       <w>télécharge</w>
       <w>uniquement</w>
+      <w>utiliser</w>
       <w>valeurs</w>
       <w>valide</w>
       <w>validité</w>
@@ -199,6 +238,8 @@
       <w>vérifie</w>
       <w>écrit</w>
       <w>éléments</w>
+      <w>étant</w>
+      <w>état</w>
       <w>évènements</w>
       <w>événement</w>
     </words>

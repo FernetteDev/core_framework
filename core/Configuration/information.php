@@ -19,8 +19,9 @@ class information {
     const BDD_PASS = "";
     const BDD_HOTE = "localhost";
     const BDD_PORT = 3306;
+
     /**
-     * Clef du site.
+     * Clef de cryptage des sessions pour plus de sécurité il est judicieux de crypter la clé en md5() ou sha1();
      */
     const CLEF_CRYPTAGE = '';
 }

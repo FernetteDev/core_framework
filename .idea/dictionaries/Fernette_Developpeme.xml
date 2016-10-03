@@ -129,6 +129,7 @@
       <w>joueur</w>
       <w>jour</w>
       <w>joué</w>
+      <w>judicieux</w>
       <w>juste</w>
       <w>keycode</w>
       <w>keydown</w>
@@ -180,6 +181,7 @@
       <w>redimensionne</w>
       <w>redimensionnement</w>
       <w>redimensionner</w>
+      <w>remplissent</w>
       <w>remplit</w>
       <w>renouveler</w>
       <w>renseignera</w>
@@ -206,7 +208,9 @@
       <w>securite</w>
       <w>servira</w>
       <w>sinon</w>
+      <w>soit</w>
       <w>sont</w>
+      <w>sorte</w>
       <w>souhaité</w>
       <w>souris</w>
       <w>spacebar</w>
@@ -229,6 +233,7 @@
       <w>truc</w>
       <w>télécharge</w>
       <w>uniquement</w>
+      <w>unserialize</w>
       <w>utiliser</w>
       <w>valeurs</w>
       <w>valide</w>
@@ -242,6 +247,7 @@
       <w>voici</w>
       <w>vérifie</w>
       <w>écrit</w>
+      <w>égal</w>
       <w>éléments</w>
       <w>étant</w>
       <w>état</w>

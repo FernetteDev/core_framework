@@ -40,16 +40,20 @@
 #       Connecte la base de données
 
 #   Namespace Html
+#   Dernière mise à jour le 03/10/16
 #   L'objet balise_content :
 #       Contient les attributs des balises
-#
-#   L'objet form :
-#       Contient tout les éléments du formulaire
 #
 #   L'objet balise :
 #       "balise" permet de choisir une balise de notre choix, idéalement, "p", "div", "span", "section" ....
 #       Les balises comme "a" et "img" étant des balises aux attributs plus spécifique deux objets indépendant ont été créé.
 #       Pour le moment les balises ne peuvent être emboîté.
+#
+#   L'objet form :
+#       Contient tout les éléments du formulaire
+#
+#   L'objet select :
+#       Contient le menu select, toutes balises "<option>" se remplissent avec la function addOption
 
 #   Namespace Image
 #   L'objet crea_image :

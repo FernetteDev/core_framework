@@ -66,4 +66,5 @@
 #       Permet de tester la validité d'un mail
 
 #   Namespace Securite
+#   Mise à jour le 03/10/16
 #   L'objet session : Initialise une session et la cryptera en "md5"

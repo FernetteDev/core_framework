@@ -10,6 +10,7 @@
 #               mise à jour sont susceptible de ne pas fonctionner et feront l'objet d'un approfondissement        #
 ####################################################################################################################
 
+
 #   Namespace Structure
 #   Dernière mise à jour le 03/10/16
 #   L'objet head :
@@ -24,20 +25,27 @@
 
 #   Namespace Autoload
 #   Fonctionnel
-#   L'objet autoload : (en cours de recherche sur la récurcivité afin d'en faire un autoload qui peut naviguer de partout)
+#   L'objet autoload : (en cours de recherche sur la récurcivité afin d'en faire un autoload qui peut naviguer partout)
+
 
 #   Namespace Chiffre
 #   L'objet add_zero :
 
+
 #   Namespace Configuration
-#   Fonctionnel
+#   Dernière mise à jour le 21/10/16
 #   L'objet information :
 #       Contient toutes les constantes du site pour la configuration
 
+
 #   Namespace Database
-#   Fonctionnel
+#   Dernière mise à jour le 21/10/16
 #   L'objet connexion :
-#       Connecte la base de données
+#       Devient passif au profit de l'objet requête
+#
+#   L'objet requête :
+#       Permet d'effectuer les quatres requêtes de base (INSERT, SELECT, UPDATE, DELETE) et initialise automatiquement l'objet PDO de la classe connexion.
+
 
 #   Namespace Html
 #   Dernière mise à jour le 03/10/16
@@ -55,6 +63,7 @@
 #   L'objet select :
 #       Contient le menu select, toutes balises "<option>" se remplissent avec la function addOption
 
+
 #   Namespace Image
 #   L'objet crea_image :
 #       Permet de copier une image et d'en réduire la taille.
@@ -64,11 +73,13 @@
 #       le Jquery jcrop qui permet le rognage et mettre à jour le fichier visualisationImage
 #       qui permet d'afficher l'image et choisir vos "id"
 
+
 #   Namespace Regex
 #   (Ce namespace contiendra toutes les regex et test de validation)
 #   L'objet RegexEmail :
 #       Permet de tester la validité d'un mail
 
+
 #   Namespace Securite
 #   Mise à jour le 03/10/16
-#   L'objet session : Initialise une session et la cryptera en "md5"
+#   L'objet session : Initialise une session

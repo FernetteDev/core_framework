@@ -8,9 +8,10 @@ class Session {
     public function __construct() {
         session_start();
     }
-    //public function creation($pTabResultat) {
-    //    $_SESSION['securite'] = $this->crypter(serialize($pTabResultat));
-    //}
+    public function creation($pTabResultat) {
+        $_SESSION['securite'] = $this->crypter(serialize($pTabResultat));
+    }
+    
     //public function valide() {
     //    if (!isset($_SESSION['securite'])) {
     //        header('Location: index.php');

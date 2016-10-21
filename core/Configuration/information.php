@@ -14,14 +14,15 @@ class information {
     /**
     * Base de données.
     */
-    const BDD_BASE = "test_core";
+    const BDD_BASE = "framework";
     const BDD_USER = "root";
     const BDD_PASS = "";
     const BDD_HOTE = "localhost";
     const BDD_PORT = 3306;
+    const BBD_CHARSET = "UTF8";
 
     /**
      * Clef de cryptage des sessions pour plus de sécurité il est judicieux de crypter la clé en md5() ou sha1();
      */
-    const CLEF_CRYPTAGE = '';
+    const CLEF_CRYPTAGE = '1234';
 }
